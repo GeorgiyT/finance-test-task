@@ -1,0 +1,23 @@
+.table {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  border: 2px solid gray;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.table th {
+  border-bottom: 2px solid gray;
+  padding: 5px 0;
+}
+
+.white th {
+  color: black;
+}
+
+.dark th {
+  color: whitesmoke;
+}

@@ -1,0 +1,29 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal {
+  width: 400px;
+  min-height: 200px;
+  position: fixed;
+  background-color: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.3);
+}
+
+.dark {
+  background-color: #333333;
+}
+
+.white {
+  background-color: white;
+}

@@ -1,0 +1,13 @@
+.settingsFormList {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: rgb(200, 200, 200);
+  padding: 2px 5px;
+}
+
+.settingsFormList span {
+  margin-right: 5px;
+}

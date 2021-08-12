@@ -1,0 +1,55 @@
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.settingsForm label {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.settingsForm ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.settingsInput {
+  margin: 0 auto 10px;
+  width: 100px;
+  display: block;
+}
+
+.settingsForm button {
+  padding: 8px 16px;
+  border-radius: 3px;
+  background-color: #899aff;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  min-width: 100px;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.settingsForm button:hover,
+.settingsForm button:focus {
+  background-color: #303f9f;
+}
+
+.white {
+  color: black;
+}
+
+.dark {
+  color: aliceblue;
+}

@@ -1,0 +1,15 @@
+.table__row td {
+  padding: 5px 0;
+}
+
+.table__row:not(:last-child) td {
+  border-bottom: 1px solid gray;
+}
+
+.table__green {
+  background-color: rgb(180, 255, 165);
+}
+
+.table__red {
+  background-color: rgb(255, 180, 165);
+}
